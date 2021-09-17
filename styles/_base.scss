@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+  color: $text-grey;
+  font-family: 'Montserrat', sans-serif;
+  background-color: $bgck-white;
+}
+h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: $text-grey;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-weight: bold;
+    text-align: center;
+    color: $text-dark;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+
+  .btn {
+    text-transform: capitalize;
+    background-color: $clr-orange;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    align-items: center;
+    padding: 15px 40px;
+    color: $bgck-white;
+    font-weight: bold;
+    border: 2px solid transparent;
+  }
+  .btn:hover {
+    color: $clr-orange;
+    background-color: transparent;
+    border: 2px solid $clr-orange;
+  }

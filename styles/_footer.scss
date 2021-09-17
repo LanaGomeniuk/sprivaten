@@ -1,0 +1,147 @@
+.footer {
+  padding-top: 24px;
+  background-color: $text-dark;
+  @media screen and (max-width: 1080px) {
+    padding-top: 0;
+  }
+
+  &-top {
+    margin: 0 auto;
+    padding: 40px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1050px;
+    width: 100%;
+    border-bottom: 1px solid #364067;
+    @media screen and (max-width: 1080px) {
+      width: 90%;
+    }
+    @media screen and (max-width: 800px) {
+      flex-direction: column;
+      padding-left: 46px;
+    }
+  }
+  &-link {
+    font-size: 24px;
+    color: $bgck-white;
+    font-weight: 700;
+    @media screen and (max-width: 800px) {
+      margin-bottom: 50px;
+    }
+  }
+  &-icons{
+    display: flex;
+    max-width: 243px;
+    width: 100%;
+    padding: 0 40px 0 40px;
+    justify-content: space-between;
+    font-size: 20px;
+    @media screen and (max-width: 800px) {
+      padding: 0;
+      max-width: 156px;
+    }
+  }
+  &-icon1 {
+    color: #335BF5;
+  }
+  &-icon2 {
+    color: #E51F5A;
+  }
+  &-icon3 {
+    color: #21A6DF;
+  }
+  &-icon4 {
+    color: #E42F08;
+  }
+  &-bottom {
+    margin: 0 auto;
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1050px;
+    justify-content: space-between;
+    @media screen and (max-width: 1080px) {
+      width: 90%;
+    }
+    @media screen and (max-width: 800px) {
+      flex-direction: column;
+      padding-left: 46px;
+    }
+  }
+  &-bottom ul {
+    @media screen and (max-width: 1080px) {
+      margin-bottom: 20px;
+    }
+  }
+  &-bottom li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  &-bottom li {
+    @media screen and (max-width: 800px) {
+      margin-bottom: 30px;
+    }
+  }
+  &-bottom a {
+    color: #BDBDBD;
+    font-weight: 600;
+    @media screen and (max-width: 1080px) {
+      font-weight: 400;
+    }
+  }
+  &-title {
+    color: $bgck-white;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  &-subscribe {
+    max-width: 321px;
+    width: 100%;
+    @media screen and (max-width: 1080px) {
+      width: 90%;
+    }
+  }
+  &-subscribe p {
+    font-size: 12px;
+    color: #BDBDBD;
+  }
+  &-form {
+    display: flex;
+    margin-bottom: 5px;
+    background: #F9F9F9;
+    border-radius: 5px;
+    &-input {
+      max-width: 204px;
+      width: 100%;
+      border: 1px solid #BDBDBD;
+      padding: 15px 0 15px 20px;
+      border-radius: 5px 0px 0px 5px;
+      }
+  }
+  &-btn {
+    max-width: 117px;
+    width: 100%;
+    border-radius: 0px 5px 5px 0px;
+    padding: 15px 22px;
+  }
+  &-text {
+    padding: 25px 0;
+    background-color: #16697A;
+  }
+  &-text p {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    color: $bgck-white;
+    font-weight: 600;
+    @media screen and (max-width: 1080px) {
+      width: 90%;
+      font-weight: 400;
+    }
+    @media screen and (max-width: 800px) {
+      max-width: 221px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
